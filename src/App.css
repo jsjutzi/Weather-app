@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Spectral+SC");
+
+body {
+  background-color: grey;
+}
+#zip {
+  text-align: center;
+}
+.text {
+  text-align: center;
+  font-size: 2em;
+  font-family: "Spectral SC", serif;
+}
+#forecast {
+  display: table;
+  margin: auto;
+  font-size: 1.5em;
+  border-radius: 5px;
+  background: transparent;
+  color: white;
+  font-size: "Spectral SC", serif;
+}
+#forecast:hover {
+  cursor: pointer;
+}
+#weather-text {
+  color: white;
+  text-align: center;
+}
