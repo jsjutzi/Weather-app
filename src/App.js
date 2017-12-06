@@ -31,11 +31,7 @@ class App extends Component {
 
   getForecast() {
     axios
-      .get(
-        `http://api.openweathermap.org/data/2.5/weather?zip=${
-          this.state.searchCity
-        }&appid=39b0a9078bc3441996350bb20ac1bd36`
-      )
+      .get(`/api/getForecast/${this.state.searchCity}`)
       .then(response => {
         this.setState({
           currentWeather: response.data,
